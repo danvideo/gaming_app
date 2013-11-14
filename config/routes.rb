@@ -1,6 +1,5 @@
 GamingApp::Application.routes.draw do
   get "games", to: 'games#index'
-  get "debug/:not_special", to: 'games#debug'
 end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
